@@ -1,6 +1,6 @@
 #navMenu {
     max-width: auto;
-    padding-right: 100px;
+    padding-right: 200px;
     margin: auto;
     background-color: rgb(88, 90, 119);
     font-size: 15px;
@@ -19,6 +19,13 @@
     padding: 15px 15px;
     color: rgb(255, 255, 255);
     text-decoration: none;
+    
+}
+
+#navHome{
+    color: white;
+    list-style: none;
+    display:contents;
     
 }
 
