@@ -1,3 +1,15 @@
+body{
+    background-color: rgb(240, 240, 240);
+}
+
+main{
+    margin: 0 auto;
+    width: 1480px;
+    background-image: linear-gradient(white, rgb(77, 77, 77), rgb(240, 240, 240));
+}
+
+
+
 /*------------------logo y busqueda------------------------------*/
 
 #optionsSelect{
@@ -15,7 +27,7 @@ input{
     border-radius: 0px 0 0 0px;
     border: 0;
     outline: none;
-    width: 300px;
+    width: 850px;
 }
 #busqBut{
     padding: 13px;
@@ -32,9 +44,8 @@ input{
 }
 
 #busquedaDiv{
-    margin-left: 20px;
+    margin-left: 200px;
     margin-top: -10px;
-
 }
 
 
@@ -51,14 +62,11 @@ header{
     margin: -1%;
     padding-left: 1.5%;
     padding-top: 2%;
+    margin-bottom: 19px;
 }
 
 /*--------------------------------------------------------------------*/
 
-#divMenu{
-    margin: -1%;
-    
-}
 
 #navMenu {
     font-size: 15px;
@@ -84,3 +92,37 @@ header{
 }
 
 /*--------------------------------------------------------------------*/
+
+.product{
+    margin: 10px;
+    padding: 10px;
+    width: 180px;
+    display:grid;
+    justify-content: center;
+    border-radius: 5px;
+    border: 1px;
+
+    background-color: white;
+}
+
+.product-list{
+    margin-top: 19px;
+    padding-top: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.productImg{
+    /*background-color: aqua;*/
+    height: 100px;
+}
+
+.productImgDesc{
+    /*background-color: rgb(149, 198, 231);*/
+    text-align: center;
+}
+
+section{
+    /*background-color: rgb(201, 201, 243);*/
+}
