@@ -6,6 +6,13 @@
     <title>Amazing - Home</title>
     <link rel="stylesheet" href="styles.css">
     <link rel="icon" type="image/x-icon" href="./resources/img/amazon_16438.webp">
+    
+    <style>
+        p, h1, h2{
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        }
+    </style>
+    
 </head>
 <body>
 
@@ -23,7 +30,9 @@
                     <option value="">Videojuegos</option>
                 </select>
                 <input type="text" placeholder="Buscar Amazing.es">
-                <button id="busqBut"></button>
+                <button id="buttonBusq">
+                    <img id="busqBut" src="./resources/img/search_24dp_E8EAED_FILL0_wght400_GRAD0_opsz24.png" alt="">
+                </button>
             </div>
         </div>
         
@@ -48,7 +57,9 @@
     </header>
 
     <main>
+
         <img src="./resources/img/2b63e340-cbaa-4633-ac9d-e8f85b7e7a42.jpg" alt="" width="1480px">
+        
         <section class="product-list">
             <div class="product">
                 <img class="productImg" src="./resources/img/p-colacao-original-770g.png" alt="Product 1">
@@ -97,21 +108,35 @@
                     <p>$9.90</p>
                     <button>Add to Cart</button>
                 </div>
-            </div>
-            <div class="product">
-                <img class="productImg" src="./resources/img/p-colacao-original-770g.png" alt="Product 1">
-                <div class="productImgDesc">
-                    <h2>Colacao</h2>
-                    <p>$10.00</p>
-                    <button>Add to Cart</button>
-                </div>
-            </div>
-            
-
-
-            
+            </div>x        
         </section>
 
+        <section class="secSemBlack">
+            <h1 id="hsemBlack">Semana de Black Friday por categoría</h1>
+            <div class="semBlack">
+                <div class="semBlackDiv">
+                    <img class="imgBlack" src="./resources/img/ES-es_ShopAllDeals_DO_Desktopbubbler_200x200._CB543337180_.png" alt="">
+                </div>
+                <div class="semBlackDiv">
+                    <img class="imgBlack" src="./resources/img/ES-es_LightningDeals_DO_Desktopbubbler_200x200._CB543337180_.png" alt="">
+                </div>
+                <div class="semBlackDiv">
+                    <img class="imgBlack" src="./resources/img/ES-es_Fashion_DO_Desktopbubbler_200x200._CB543337180_.png" alt="">
+                </div>
+                <div class="semBlackDiv">
+                    <img class="imgBlack" src="./resources/img/ES-es_Devices_DO_Desktopbubbler_200x200._CB543337154_.png" alt="">
+                </div>
+                <div class="semBlackDiv">
+                    <img class="imgBlack" src="./resources/img/ES-es_DealsUnder50_DO_Desktopbubbler_200x200._CB543337154_.png" alt="">
+                </div>
+                <div class="semBlackDiv">
+                    <img class="imgBlack" src="./resources/img/ES-es_DealsUnder20_DO_Desktopbubbler_200x200._CB543337154_.png" alt="">
+                </div>
+                <div class="semBlackDiv">
+                    <img class="imgBlack" src="./resources/img/ES-es_ComputersSoftware_DO_Desktopbubbler_200x200._CB543337154_.png" alt="">
+                </div>
+            </div>
+        </section>
 
 
     </main>
