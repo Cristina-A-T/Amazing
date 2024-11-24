@@ -1,5 +1,4 @@
 header{
-    height: 200px;
     background-color: red;
 }
 
@@ -8,6 +7,6 @@ body{
 }
 
 main{
-    height: 200px;
+
     background-color: rgb(0, 60, 255);
 }

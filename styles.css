@@ -3,7 +3,6 @@ header{
     
     padding-left: 1.5%;
     padding-top: 1%;
-    
 }
 
 body{
@@ -50,6 +49,7 @@ input{
 
 #divLogoYBusqueda{
     display: flex;
+    margin-bottom: -5px;
 }
 
 #busquedaDiv{
@@ -61,7 +61,7 @@ input{
 
 
 #logo {
-    width: 100px;
+    width: 120px;
     justify-content: center;
     margin-left: 5px;
 }
@@ -84,7 +84,7 @@ input{
     justify-content:left;
     background-color: rgb(77, 78, 102);
     margin-left: -40px;
-
+    margin-bottom: 0px;
 }
 
 .menuDesplegable>li>a {
