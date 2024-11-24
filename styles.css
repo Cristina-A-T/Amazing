@@ -1,20 +1,22 @@
 header{
     background-color: rgb(42, 43, 54);
-    margin: -1%;
+    
     padding-left: 1.5%;
     padding-top: 1%;
+    
 }
 
 body{
     background-color: rgb(240, 240, 240);
+    margin: -0.5%;
 }
 
 main{
     margin: 0 auto;
     width: 1480px;
     background-image: linear-gradient(white, rgb(77, 77, 77), rgb(240, 240, 240));
-}
 
+}
 
 
 
@@ -82,7 +84,7 @@ input{
     justify-content:left;
     background-color: rgb(77, 78, 102);
     margin-left: -40px;
-    margin-bottom: 19px;
+
 }
 
 .menuDesplegable>li>a {

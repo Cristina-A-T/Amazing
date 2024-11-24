@@ -1,0 +1,13 @@
+header{
+    height: 200px;
+    background-color: red;
+}
+
+body{
+    margin: -1%;
+}
+
+main{
+    height: 200px;
+    background-color: rgb(0, 60, 255);
+}
