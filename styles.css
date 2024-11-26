@@ -12,7 +12,7 @@ body{
 
 main{
     margin: 0 auto;
-    width: 1480px;
+    width: 80%;
     background-image: linear-gradient(white, rgb(77, 77, 77), rgb(240, 240, 240));
 
 }
@@ -29,11 +29,11 @@ main{
     margin-right: -4px;
 }
 
-input{
+.inputBusqueda{
     padding: 10px;
     border-radius: 0px 0 0 0px;
     border: 0;
-    width: 850px;
+    width: 500px;
 }
 
 #buttonBusq{
@@ -89,17 +89,21 @@ input{
 
 .menuDesplegable>li>a {
     display: block;
-    padding: 10px 30px;
+    padding: 10px 20px;
     color: rgb(255, 255, 255);
     text-decoration: none;
 }
 
 /*--------------------------------------------------------------------*/
 
+.imgPublicidadPrincipal{
+    width: 100%;
+}
+
 .product{
     margin: 10px;
     padding: 10px;
-    width: 200px;
+    width: 140px;
     display:grid;
     justify-content: center;
     border-radius: 5px;
@@ -109,6 +113,7 @@ input{
 }
 
 .product-list{
+    width: 100%;
     margin-top: 19px;
     padding-top: 20px;
     display: flex;
@@ -119,6 +124,7 @@ input{
 .productImg{
     /*background-color: aqua;*/
     height: 150px;
+    width: 100%;
 }
 
 .productImgDesc{
@@ -131,11 +137,11 @@ input{
 .secSemBlack{
     background-color: white;
     margin-top: 60px;
-    
+    width: 100%;
 }
 
 .semBlack{
-
+    margin-left: 3%;
     display: flex;
     align-items: center;
     justify-content: space-evenly;
@@ -143,8 +149,8 @@ input{
 }
 
 .imgBlack{
-    width: 170px;
-
+    width: 80%;
+align-items: center;
 }
 
 #hsemBlack{
