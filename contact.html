@@ -10,11 +10,35 @@
     <header>
         <div id="divLogoYBusqueda">
             <a href="index.html">
-                <img id="logo" src="./resources/img/Amazing.png" alt="" >
+                <img id="logo" src="./resources/img/Archivo_000.png" alt="" >
             </a>
             <div id="busquedaDiv">
-                <input type="text" placeholder="Buscar Amazing.es">
-                <button id="busqBut"></button>
+                <select id="optionsSelect">
+                    <option disabled selected>todos los departamentos</option>
+                    <option value="">Supermercado</option>
+                    <option value="">Ofertas</option>
+                    <option value="">Musica</option>
+                    <option value="">Videojuegos</option>
+                </select>
+                <input class="inputBusqueda" type="text" placeholder="Buscar Amazing.es">
+                <button id="buttonBusq">
+                    <img id="busqBut" src="./resources/img/search_24dp_E8EAED_FILL0_wght400_GRAD0_opsz24.png" alt="">
+                </button>
+            </div>
+            <div class="langIdenCesta">
+                <div class="language">
+                    <img src="./resources/img/spain-flag-emoji-clipart-xl.png" alt="" width="25px">
+                    <select id="languageSelect">
+                        <option value="">ES</option>
+                    </select>
+                </div>
+                <div id="iniciar">
+                    <p>Iniciar Sesión</p>
+                </div>
+                <div id="cesta">
+                    <img id="imgCesta" src="./resources/img/shopping_cart_24dp_E8EAED_FILL0_wght400_GRAD0_opsz24.png" alt="">
+                    <p>Cesta</p>
+                </div>
             </div>
         </div>
         
