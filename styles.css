@@ -1,24 +1,22 @@
-header{
-    
-    
+header {
     padding-left: 1.5%;
     padding-top: 1%;
 }
 
-body{
+body {
     background-color: rgb(240, 240, 240);
     margin: -0.5%;
     width: 100%;
 }
 
-main{
+main {
     margin: 0 auto;
     width: 1200px;
     background-image: linear-gradient(white, rgb(77, 77, 77), rgb(240, 240, 240));
 
 }
 
-p{
+p {
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
@@ -26,7 +24,7 @@ p{
 
 /*------------------logo y busqueda------------------------------*/
 
-#optionsSelect{
+#optionsSelect {
     padding: 10px;
     padding-right: 0px;
     border-radius: 5px 0 0 5px;
@@ -34,25 +32,25 @@ p{
     margin-right: -4px;
 }
 
-.inputBusqueda{
+.inputBusqueda {
     padding: 12px;
     border-radius: 0px 0 0 0px;
     border: 0;
     width: 370px;
 }
 
-#buttonBusq{
+#buttonBusq {
     border-radius: 0 5px 5px 0;
     border: none;
     height: 40px;
     background-color: rgb(255, 197, 72);
 }
 
-#busqBut{
+#busqBut {
     width: 35px;
 }
 
-#divLogoYBusqueda{
+#divLogoYBusqueda {
     display: flex;
     margin-bottom: -5px;
     position: fixed;
@@ -63,7 +61,7 @@ p{
     margin-left: -1%;
 }
 
-#busquedaDiv{
+#busquedaDiv {
     margin-left: 195px;
     display: flex;
     align-items: center;
@@ -80,14 +78,14 @@ p{
 
 /*--------------------------------------------------------------------*/
 
-.langIdenCesta{
+.langIdenCesta {
     display: flex;
     align-items: center;
     justify-content: center;
     
 }
 
-.language{
+.language {
     margin: 10px;
     margin-left: 50px;
     margin-top: 15px;
@@ -97,7 +95,7 @@ p{
 
 }
 
-#languageSelect{
+#languageSelect {
     background-color: rgb(42, 43, 54);
     border: none;
     color: white;
@@ -106,7 +104,7 @@ p{
     font-size: 15px;
 }
 
-#iniciar{
+#iniciar {
     color: white;
     font-weight: bold;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
@@ -116,7 +114,7 @@ p{
     margin-top: 5px;
 }
 
-#cesta{
+#basket {
     color: white;
     font-weight: bold;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
@@ -126,14 +124,14 @@ p{
     margin-top: 5px;
 }
 
-#imgCesta{
+#imgCesta {
     height: 30px;
     margin-top: 7px;
 }
 
 /*--------------------------------------------------------------------*/
 
-#divMenu{
+#divMenu {
     margin-top: 43px;
 }
 
@@ -143,7 +141,7 @@ p{
     color: white;
 }
 
-.menuDesplegable {
+.dropdown {
     list-style: none;
     display: flex;
     justify-content:left;
@@ -153,7 +151,7 @@ p{
     margin-right: -7px;
 }
 
-.menuDesplegable>li>a {
+.dropdown>li>a {
     display: block;
     padding: 10px 20px;
     color: rgb(255, 255, 255);
@@ -162,11 +160,11 @@ p{
 
 /*--------------------------------------------------------------------*/
 
-.imgPublicidadPrincipal{
+.imgPublicidadPrincipal {
     width: 100%;
 }
 
-.product{
+.product {
     margin: 10px;
     padding: 10px;
     width: 160px;
@@ -178,7 +176,7 @@ p{
     background-color: white;
 }
 
-.product-list{
+.product-list {
     width: 100%;
     margin-top: 19px;
     padding-top: 20px;
@@ -187,26 +185,26 @@ p{
     justify-content: center;
 }
 
-.productImg{
+.productImg {
     /*background-color: aqua;*/
     height: 150px;
     width: 100%;
 }
 
-.productImgDesc{
+.productImgDesc {
     /*background-color: rgb(149, 198, 231);*/
     text-align: center;
 }
 
 
 /*--------------------------------------------------------------------*/
-.secSemBlack{
+.secSemBlack {
     background-color: white;
     margin-top: 60px;
     width: 100%;
 }
 
-.semBlack{
+.semBlack {
     margin-left: 3%;
     display: flex;
     align-items: center;
@@ -214,12 +212,12 @@ p{
 
 }
 
-.imgBlack{
+.imgBlack {
     width: 80%;
 align-items: center;
 }
 
-#hsemBlack{
+#hsemBlack {
     padding: 25px 0px 10px 30px;
     
 }
