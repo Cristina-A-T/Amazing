@@ -1,56 +1,16 @@
 <!DOCTYPE html>
-<html lang="es">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Amazing - Home</title>
     <link rel="stylesheet" href="styles.css">
-    <link rel="icon" type="image/x-icon" href="./resources/img/amazon_16438.webp">
-    
-    <style>
-        p, h1, h2{
-            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-        }
-    </style>
-    
 </head>
 <body>
-
     <header>
-        <div id="divLogoYBusqueda">
-            <a href="index.html">
-                <img id="logo" src="./resources/img/Archivo_000.png" alt="" >
-            </a>
-            <div id="busquedaDiv">
-                <select id="optionsSelect">
-                    <option disabled selected>todos los departamentos</option>
-                    <option value="">Supermercado</option>
-                    <option value="">Ofertas</option>
-                    <option value="">Musica</option>
-                    <option value="">Videojuegos</option>
-                </select>
-                <input class="inputBusqueda" type="text" placeholder="Buscar Amazing.es">
-                <button id="buttonBusq">
-                    <img id="busqBut" src="./resources/img/search_24dp_E8EAED_FILL0_wght400_GRAD0_opsz24.png" alt="">
-                </button>
-            </div>
-            <div class="langIdenCesta">
-                <div class="language">
-                    <img src="./resources/img/spain-flag-emoji-clipart-xl.png" alt="" width="25px">
-                    <select id="languageSelect">
-                        <option value="">ES</option>
-                    </select>
-                </div>
-                <div id="iniciar">
-                    <p>Iniciar Sesión</p>
-                </div>
-                <div id="cesta">
-                    <img id="imgCesta" src="./resources/img/shopping_cart_24dp_E8EAED_FILL0_wght400_GRAD0_opsz24.png" alt="">
-                    <p>Cesta</p>
-                </div>
-            </div>
-        </div>
-        
+        <a href="index.html">
+            <img id="logo" src="./resources/img/Amazing.png" alt="" >
+        </a>
         <div id="divMenu">
             <nav id="navMenu">
                 <ul class="menuDesplegable">
@@ -58,108 +18,37 @@
                     <li><a href="cart.html">Cart</a></li>
                     <li><a href="contact.html">Contact</a></li>
                     <li><a href="#">Supermercado</a></li>
-                    <li><a href="#">Lo mas vendido</a></li>
-                    <li><a href="#">Amazon basics</a></li>
+                    <li><a href="#">Electronica</a></li>
+                    <li><a href="#">Moda</a></li>
                     <li><a href="#">Ofertas</a></li>
+                    <li><a href="#">Lo mas vendido</a></li>
+                    <li><a href="#">Ultimas novedades</a></li>
                     <li><a href="#">Musica</a></li>
                     <li><a href="#">Prime</a></li>
-                    <li><a href="#">Ultimas novedades</a></li>
                     <li><a href="#">Tarjetas regalo</a></li>
-                    <li><a href="#">Electronica</a></li>
                 </ul>
             </nav>
         </div>
     </header>
-
     <main>
-
-        <img class="imgPublicidadPrincipal" src="./resources/img/2b63e340-cbaa-4633-ac9d-e8f85b7e7a42.jpg" alt="">
-        
         <section class="product-list">
             <div class="product">
-                <img class="productImg" src="./resources/img/p-colacao-original-770g.png" alt="Product 1">
-                <div class="productImgDesc">
-                    <h2>Colacao</h2>
-                    <p>$10.00</p>
-                    <button>Add to Cart</button>
-                </div>
+                <img src="product1.jpg" alt="Product 1">
+                <h2>Product 1</h2>
+                <p>$10.00</p>
+                <button>Add to Cart</button>
             </div>
             <div class="product">
-                <img class="productImg" src="./resources/img/NQ_390g_497x435px_01.avif" alt="Product 2">
-                <div class="productImgDesc">
-                    <h2>Nesquik</h2>
-                    <p>$9.90</p>
-                    <button>Add to Cart</button>
-                </div>
-            </div>
-            <div class="product">
-                <img class="productImg" src="./resources/img/p-colacao-original-770g.png" alt="Product 1">
-                <div class="productImgDesc">
-                    <h2>Colacao</h2>
-                    <p>$10.00</p>
-                    <button>Add to Cart</button>
-                </div>
-            </div>
-            <div class="product">
-                <img class="productImg" src="./resources/img/NQ_390g_497x435px_01.avif" alt="Product 2">
-                <div class="productImgDesc">
-                    <h2>Nesquik</h2>
-                    <p>$9.90</p>
-                    <button>Add to Cart</button>
-                </div>
-            </div>
-            <div class="product">
-                <img class="productImg" src="./resources/img/p-colacao-original-770g.png" alt="Product 1">
-                <div class="productImgDesc">
-                    <h2>Colacao</h2>
-                    <p>$10.00</p>
-                    <button>Add to Cart</button>
-                </div>
-            </div>
-            <div class="product">
-                <img class="productImg" src="./resources/img/NQ_390g_497x435px_01.avif" alt="Product 2">
-                <div class="productImgDesc">
-                    <h2>Nesquik</h2>
-                    <p>$9.90</p>
-                    <button>Add to Cart</button>
-                </div>
-            </div>        
-        </section>
-
-        <section class="secSemBlack">
-            <h1 id="hsemBlack">Semana de Black Friday por categoría</h1>
-            <div class="semBlack">
-                <div class="semBlackDiv">
-                    <img class="imgBlack" src="./resources/img/ES-es_ShopAllDeals_DO_Desktopbubbler_200x200._CB543337180_.png" alt="">
-                </div>
-                <div class="semBlackDiv">
-                    <img class="imgBlack" src="./resources/img/ES-es_LightningDeals_DO_Desktopbubbler_200x200._CB543337180_.png" alt="">
-                </div>
-                <div class="semBlackDiv">
-                    <img class="imgBlack" src="./resources/img/ES-es_Fashion_DO_Desktopbubbler_200x200._CB543337180_.png" alt="">
-                </div>
-                <div class="semBlackDiv">
-                    <img class="imgBlack" src="./resources/img/ES-es_Devices_DO_Desktopbubbler_200x200._CB543337154_.png" alt="">
-                </div>
-                <div class="semBlackDiv">
-                    <img class="imgBlack" src="./resources/img/ES-es_DealsUnder50_DO_Desktopbubbler_200x200._CB543337154_.png" alt="">
-                </div>
-                <div class="semBlackDiv">
-                    <img class="imgBlack" src="./resources/img/ES-es_DealsUnder20_DO_Desktopbubbler_200x200._CB543337154_.png" alt="">
-                </div>
-                <div class="semBlackDiv">
-                    <img class="imgBlack" src="./resources/img/ES-es_ComputersSoftware_DO_Desktopbubbler_200x200._CB543337154_.png" alt="">
-                </div>
+                <img src="product2.jpg" alt="Product 2">
+                <h2>Product 2</h2>
+                <p>$20.00</p>
+                <button>Add to Cart</button>
             </div>
         </section>
-
-
     </main>
-
-
-
     <footer>
         <p>&copy; 2023 My E-commerce Site</p>
     </footer>
+    <script src="scripts.js"></script>
 </body>
 </html>
